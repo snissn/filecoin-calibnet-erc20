@@ -2,7 +2,10 @@
 
 This repo contains a hardhat config that uses the paris for the evm hardfork value which is the current default. There is also a second config that uses the latest `cancun` hardfork. Deploying Simpletoken and then getting the contracts name triggers an FEVM exception when run on Calibnet/mainnet/localdevnets. The usage is as follows:
 
+# Setup
 
+1. use `yarn` to install node dependencies
+2. set up .env config file and set environment variable PRIVATE_KEY with the value of the private key for an account on calibnet
 
 ## Compiling for the "paris" hardfork and correctly recovering token name
 
